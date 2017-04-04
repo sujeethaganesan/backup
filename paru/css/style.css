@@ -1,0 +1,38 @@
+.wrapper{width: 100%;height: auto;}
+.form{width: 60%;margin: 0 auto;border-width:5px;border-style:ridge;color: currentColor;background: -webkit-linear-gradient( #efab73,#f7ab6c);}
+h3{text-align: center;margin-top: 0px;}
+fieldset{margin-top: 35px;}
+.signBtn{text-align: center;}
+.main{height: auto;width: 800px;margin:0 auto;background-color: #3c3d3d;margin-top: 45px;background-image: url('../images/image4.jpg');
+	  background-repeat: no-repeat;background-size: 100% 92%;}
+.quotes{width: 40%;font-size: xx-large;padding: 45px 50px;color:#2c2c30;font-weight: bold;}
+.links{height: 200px;text-align: center;width: 100%;font-size: 25px;}
+.links a{padding-left: 30px;}
+.links a:hover{color:#000;}
+.foot{color: #fff;font-family: cursive;text-align: center;}
+.foot a{padding-left: 30px;color: white;}
+.foot a:hover{color: bisque;}
+.container{width: 900px;min-height: 500px;padding:0;margin: 20px auto;border-width:5px;border-style:ridge;}
+figure img{width: 100%;height:  400px;cursor: pointer;}
+.about{width: 100%;min-height: 500px;font-family: cursive;}
+.heading{font-size: 30px;color: coral;padding-top: 20px;padding-left: 20px;border-bottom: 2px solid;}
+.privacy{width: 800px;min-height: 400px;margin:0 auto;padding-top: 25px;color: black; border-width:5px;border-style:ridge;}
+.privacy ul{padding-top: 20px;font-family: cursive;}
+.dropDown{margin-left: 24%;}
+.select{width: 222px;margin-top: 10px;}
+td{padding-right: 30px;color: currentColor;font-weight: bold;}
+.login, .forgot_page{width: 50%;min-height: 255px;margin: 0 auto;margin-top:7%;padding-top: 50px;background: -webkit-linear-gradient( #353638,#545556);color: #fff;}
+.loginBtn, .updateBtn{background-color: black;border: 1px solid black;}
+.forgot{color: white;padding-left: 25px;}
+.forgot:hover{color: blanchedalmond;}
+.forgot_page{background-color: #000;}
+.success{width: 50%;min-height: 350px;margin:0 auto;margin-top:7%;background: #eabd6e url('../images/icon2.png') no-repeat 50% 48%;
+        color: #000;text-align: center;padding-top: 50px;font-size: large;}
+ .success p{margin: 0 0 10px;font-size: larger;font-weight: bold;color: brown;}   
+ .rows{margin-left: 50px;}
+ .error{color: red;}  
+  .err
+ {
+ 	color:red;
+ 	text-align: center;
+ }  

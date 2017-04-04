@@ -1,0 +1,30 @@
+<section class="login">
+	<h3>Login Form</h3>
+	<form class="form-horizontal">
+
+		<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">UserName</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" ng-model="Uname" required="">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">Password </label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" ng-model="Pwd" required="">
+    
+  </div>
+</div>
+<p class="err" ng-if="userNameError" ng-cloak >{{userError}}</p>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4 ">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary loginBtn" ng-click="login()" ng-cloak>Log In</button>
+    <a href="#forgot" class="forgot">Forgot Password</a>
+  </div>
+</div>
+	</form>
+</section>

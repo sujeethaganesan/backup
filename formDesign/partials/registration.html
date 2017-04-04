@@ -1,0 +1,102 @@
+<section class="form">
+<form class="form-horizontal" name="signInForm">
+  <h3>REGISTRATION FORM</h3>
+<fieldset>
+
+<!-- Form Name -->
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Firstname</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" ng-model="fname" required>
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Lastname</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" ng-model="lname" required>
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">UserName</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" ng-model="uname" required>
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">Password </label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" ng-model="pwd" required>
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">Confirm Password</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" ng-model="cpwd" required>
+    
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Gender</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="male" ng-model="gender"  checked="checked" required>
+      Male
+    </label> 
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" ng-model="gender" value="female" required>
+      Female
+    </label>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div id="dv1" class="form-group">
+        <div class="ng-scope">
+          <table class="dropDown">
+            <tbody class="col-md-4">
+              <tr>
+                <td>Country:</td>
+                <td class="option_color"><select id="country" ng-model="country" class="form-control select" ng-change="changes(country)" ng-options="obj as obj.country for obj in countries" class="ng-pristine ng-valid" required><option value="" class="" >Select</option></select></td>
+              </tr>
+              <tr>
+                <td>state:</td>
+                <td class="option_color"><select id="state" ng-model="state" class="form-control select" ng-change="statechanges(state)" ng-options="obj as obj.state for obj in states" class="ng-pristine ng-valid" required><option value="" class="" >select</option></select></td>
+              </tr>
+
+              <tr>
+                <td>cities:</td>
+                <td class="option_color"><select id="city" ng-model="city" class="form-control select" ng-change="citychanges(city)" ng-options="obj as obj.city for obj in cities" class="ng-pristine ng-valid" required><option value="" class="" >select</option></select></td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4 signBtn">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary " ng-click="sign_in()"  ng-disabled="signInForm.$invalid">Sign In</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</section>

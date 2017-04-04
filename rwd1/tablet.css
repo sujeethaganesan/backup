@@ -1,0 +1,156 @@
+.wrapper
+{
+	width:980px;
+	margin:0 auto;
+	background-color:#dcd6d6;
+}
+header
+{
+	width:100%;
+	background-color:#373c3f;
+	height:100px;
+	box-sizing:border-box;
+}
+.menu{ display:inline-block; }
+.menu li{ list-style-type: none; display:inline-block; margin:40px 0 40px 20px; }
+.menu li a{
+	text-decoration:none;
+	color:white;
+	
+}
+.menu li:first-child
+{
+	margin-left:50px;
+}
+.hero
+{
+	width:100%;
+	height:450px;
+	background-color:#13adc1;
+	position:relative;
+}
+.hero .caption{ 
+	width:70%;
+	height:133px; 
+	position:absolute;
+	top:100px;
+	left:83px; 
+}
+.hero .caption p{
+	font-size:50px;
+	color:white;
+}
+.bottom
+{
+	position:absolute;
+	top:250px;
+	left:83px;
+}
+.bottom p
+{ 
+	display:inline-block;
+	font-size: 33px;
+	color:#a6d3dd;
+	padding-right:30px;
+	margin-right:40px;
+
+}
+.bottom img
+{
+	width:20px;
+	height:30px;
+	padding-left:40px;
+	margin-left:40px;
+}
+.sub_hero
+{
+	width:100%;
+	height:auto;
+}
+.right_sub_hero
+{
+	width:70%;
+	height:240px;
+	background-color:#27212c;
+ float:left;
+ position:relative;
+}
+.right_sub_hero p{
+	color:#9a89a8;
+	font-size:25px;
+	position:absolute;
+	top:100px;
+	left:150px;
+}
+.left_sub_hero
+{
+	width:30%;
+	height:240px;
+	background-color:#bc3183;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+.left_sub_hero img
+{
+	width:20px;
+	height:30px;
+	position:absolute;
+	top:100px;
+	left:150px;
+}
+.clearfix
+{
+	clear:both;
+}
+.right_subb_hero,.middle_subb_hero,.left_subb_hero
+{
+	width:33%;
+	height:300px;
+	display:inline-block;
+}
+.right_subb_hero
+{
+	background-color:#5b0fa1;
+	float:left;
+	position:relative;
+}
+.right_subb_hero img
+{
+	width:20px;
+	height:30px;
+	position:absolute;
+	top:150px;
+	left:150px;
+	
+}
+.subb_hero
+{
+	width:100%;
+	height:300px;
+}
+.content
+{
+	width:100%;
+	height:563px;
+	position:relative;
+}
+.content h1{
+	color:#088ca5;
+	font-size:25px;
+	position:absolute;
+	top:54px;
+	left:65px;
+}
+.right_content,.left_content
+{
+	width:40%;
+	height:200px;
+	display:inline-block;
+	margin:90px 0px 0 60px;
+
+}
+.right_content p,.left_content p
+{
+ text-indent: 50px;
+	 line-height: 150%; padding-top:20px;}

@@ -1,0 +1,73 @@
+.item
+{
+
+  float:left;
+  border-left:1px solid rgba(34,36,38,.1);
+   border-right:1px solid rgba(34,36,38,.1);
+  padding: 10px 30px;
+  margin-left: 100px;
+}
+.item:hover
+{
+  background-color:#f2f2f2;
+}
+.item img
+{
+      display: inline-block;
+    vertical-align: middle;
+        
+}
+.jumbotron
+{
+  border-radius: 0px;
+}
+.title
+{
+
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    float:left;
+  
+
+}
+.clearFix
+{
+  clear:both;
+}
+.title h1
+{
+  font-size: 35px;
+}
+.top
+{
+    border:1px solid rgba(34,36,38,.1);
+    width:100%;
+    margin-top: 20px;
+    box-shadow: 0px 3px 1px #f2f2f2;
+}
+.top a
+{
+  color:black;
+  font-weight: 700;
+}
+.top a:hover
+{
+  text-decoration: none;
+}
+.inventory-app
+{
+      margin-top: 33px;
+    margin-left: 33px;
+    padding-left: 143px;
+}
+.productImage
+{
+  padding: 17px 0px;
+}
+
+.proimg
+{
+    width: 77px;
+    margin-left: 89px;p
+}

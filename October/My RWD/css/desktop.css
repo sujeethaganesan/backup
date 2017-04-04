@@ -1,0 +1,82 @@
+/*desktop version*/
+
+.container
+{
+	width:960px;
+	margin: 0 auto;
+}
+#logo{
+		float:left;
+		margin:0;
+	}
+#menu-toggle{
+	display: none;
+}
+#menu ul
+{
+	margin-top: 10px;
+	display: block
+}
+#menu li
+{
+		float:left;
+		margin-left:75px;
+		border:none;
+}
+#menu li a
+{
+	padding:10px;
+	background-color:transparent;
+	display: block;
+	color:#162c3b;
+}
+#menu li a:hover{
+	background-color:#b6d0e1;
+}
+#banner{
+	overflow: hidden;
+	
+}
+.bannerContent,.bannerSlide
+{
+	width:40%;
+	float: left;
+}
+.bannerSlide
+{
+	padding: 30px;
+}
+#content
+{
+	overflow: hidden;
+}
+.box-content
+{
+	float:left;
+	
+	width: 30.26270897304674%;
+	padding:1.535312180143296%;
+}
+footer{
+	background-color:#99ccff;
+	overflow: auto;
+	
+}
+footer p{
+	float: left;
+	color: #fff;
+	margin-left:489px;
+    margin-top: 30px;
+}
+.img_22{
+	float: right;
+    margin-right: 136px;
+  	margin-top: 23px;
+  	
+}
+
+
+.f_section_social
+{
+	display: none;
+}

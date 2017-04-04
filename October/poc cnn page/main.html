@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CNN Studio Tours</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/fontawesome/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:200" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="midLine navbar-header">
+                        <button type="button" class="menuIcon navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+                        <a href="main.html" class="logo"><img src="images/logo.jpg"></a>
+                        <h1 class="title">studio<span class="titleName"> tours</span></h1>
+                    </div>
+                    <div class="collapse navbar-collapse clearFix" id="myNavbar">
+                        <ul class="mainMenu nav navbar-nav">
+                            <li><a href="#tourCnn"><i class="fa fa-plane"></i>Tour CNN</a></li>
+                            <li><a href="#group"><i class="fa fa-users"></i>Bring A Group</a></li>
+                            <li><a href="#event"><i class="fa fa-coffee"></i>Host an Event</a></li>
+                            <li><a href="#trip"><i class="fa fa-calendar"></i>Plan Your Trip</a></li>
+                            <li><a href="#contact"><i class="fa fa-phone"></i>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="tourCnn" class="container-fluid">
+                <div class="sub">
+                    <h1>Tour CNN</h1>
+                    <p> Get exclusive access to the world headquarters of CNN with CNN Studio Tours.</p>
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div id="group" class="container-fluid">
+                <div class="sub">
+                    <h1>Bring a Group</h1>
+                    <p> Visit the working studios and newsrooms of CNN and HLN on the VIP tour.</p>
+                    <button>Purchase Tickets</button>
+                </div>
+            </div>
+            <div id="event" class="container-fluid">
+                <div class="sub">
+                    <h1>Host an Event</h1>
+                    <p>Host your next event at some of the most unique event spaces in the city inside the world headquarters of CNN.</p>
+                    <button>Event Enquiry</button>
+                </div>
+            </div>
+            <div id="trip" class="container-fluid">
+                <div class="sub">
+                    <h1>Plan Your Trip</h1>
+                    <p>CNN studio tours in Atlanta offers a once in a lifetime experience at the World Headquarters of CNN.</p>
+                    <button>Purchas Tickets</button>
+                </div>
+            </div>
+            <div id="contact" class="container-fluid">
+                <div class="sub">
+                    <h1>Contact Us</h1>
+                    <p>You can puschase tickets online or call <span>404-827-2300</span> or <span>1-877-4</span> CNNTOUR</p>
+                    <h4>Monday-Friday</h4>
+                    <h4>9:00 a.m. - 4:30 p.m.</h4>
+                    <br>
+                    <br>
+                    <h1>Follow Us</h1>
+                    <div class="socialIcons">
+                        <div class="fb"><i class="fa fa-facebook"></i></div>
+                        <div class="you"><i class="fa fa-youtube-play"></i></div>
+                        <div class="insta"><i class="fa fa-instagram"></i></div>
+                        <div class="tweet"><i class="fa fa-twitter"></i></div>
+                        <div class="clearFix"></div>
+                    </div>
+                </div>
+                <div id="map"></div>
+                <div class="clearFix"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(11.01, 76.9);
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: myCenter,
+                zoom: 10
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+                position: myCenter
+            });
+            marker.setMap(map);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

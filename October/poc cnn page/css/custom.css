@@ -1,0 +1,339 @@
+h1
+{
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.wrapper
+{
+	margin:0 auto;
+	width:100%;
+}
+.container,.container-fluid
+{
+	padding:0;
+	width:100%;
+}
+.navbar
+{
+	border:0;
+	
+}
+.navbar .container-fluid
+{
+	border-top: 3px solid #cc0001;
+	background-color: #ffffff;
+	position:fixed;
+}
+.midLine
+{
+	position:relative;
+	height:60px;
+	width:100%;
+}
+.logo
+{
+	position: absolute;
+    left: 240px;
+}
+.title
+{
+	font-family: 'Assistant', sans-serif;
+	font-size:28px;	
+	position: absolute;
+    left:320px;
+    top: 18px;
+}
+.titleName
+{
+	font-weight:600;
+	position:absolute;
+	left:76px;
+}
+i
+{
+	padding-right: 4px;
+}
+.mainMenu
+{
+	background-color: #f2f2f2;
+	width:100%;
+}
+.mainMenu>li
+{
+	left: 237px;
+    top: 2px;
+    padding: 0 21px
+}
+.mainMenu>li>a
+{
+    color: #0a0a0a;
+    text-decoration: none;
+}
+.mainMenu>li>a:hover {
+    padding: 12px;
+    border-bottom: 3px solid red;
+}
+.menuIcon
+{
+	float:left;
+	margin-left: 50px;
+	position:static;
+	box-shadow: 0px 1px 4px;
+}
+.clearFix
+{
+	clear:both;
+}
+.navbar-toggle>span
+{
+    background-color:#f2f2f2;
+}
+
+
+.navbar-collapse
+{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+#tourCnn,#group,#event,#trip,#contact
+{
+	height:534px;
+	}
+#tourCnn
+{
+	background: url("../images/tour1.jpg") no-repeat;
+	background-size: 100% 534px;
+
+	
+}
+#group
+{
+	background: url("../images/group1.jpg") no-repeat;
+	background-size: 100% 534px;
+
+}
+#event
+{
+	background: url("../images/event1.jpg") no-repeat;
+	background-size: 100% 534px;
+}
+#trip
+{
+	background: url("../images/trip1.jpg") no-repeat;
+	background-size: 100% 534px;
+}
+#map
+{
+	width:628px;
+	height:400px;
+	background:yellow;
+	float:right;
+}
+#contact
+{
+	background-color:#0d0d0d; 
+}
+#tourCnn .sub,#group .sub,#event .sub,#trip .sub
+{
+    background-color: rgba(0, 0, 0, 0.13);
+    width: 363px;
+    height: 200px;
+    margin: 40px 0px 0px 104px;
+    padding: 37px;
+}
+#tourCnn .sub p,#group .sub p,#event .sub p,#trip .sub p
+{
+	color:white;
+}
+#tourCnn .sub h1,#group .sub h1,#event .sub h1,#trip.sub h1
+{
+    font-size: 25px;
+}
+#tourCnn .sub h1
+{
+	color: #fb1c17;
+}
+#group .sub h1
+{
+color: #f2b504;
+}
+#event .sub h1
+{
+color: #1fb9c5;
+}
+#trip .sub h1
+{
+color: #fa4d15;
+}
+#tourCnn .sub button,#group .sub button,#event .sub button,#trip .sub button
+{
+    border: 0;
+    padding: 3px 14px;
+    border-radius: 6px;
+    color:white;
+}
+#tourCnn .sub button
+{
+	background-color: #fb1c17;
+}
+#group .sub button
+{
+	background-color: #f2b504;
+}
+#event .sub button
+{
+	background-color: #1fb9c5;
+}
+#trip .sub button
+{
+	background-color: #fa4d15;
+}
+#contact .sub
+{
+	width: 363px;
+    min-height: 200px;
+    margin: 40px 0px 0px 104px;
+    padding: 37px;
+    float:left;
+}
+#contact .sub span
+{
+	font-weight: bold;
+}
+#contact .sub h4,#contact .sub span
+{
+	color:white;
+}
+#contact .sub h1
+{
+	color:#acd83b;
+	padding: 6px 0;
+}
+#contact .sub p
+{
+	color:white;
+}
+.socialIcons img
+{
+	padding:5px;
+}
+.fb
+{
+	background-color: #3b589c;
+    
+}
+.you
+{
+	background-color: #c9181e;
+}
+.insta
+{
+	background: rgba(249,172,18,1);
+background: -moz-linear-gradient(45deg, rgba(249,172,18,1) 0%, rgba(233,151,44,1) 16%, rgba(217,122,81,1) 36%, rgba(186,67,148,1) 60%, rgba(173,46,175,1) 79%, rgba(163,32,196,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(249,172,18,1)), color-stop(16%, rgba(233,151,44,1)), color-stop(36%, rgba(217,122,81,1)), color-stop(60%, rgba(186,67,148,1)), color-stop(79%, rgba(173,46,175,1)), color-stop(100%, rgba(163,32,196,1)));
+background: -webkit-linear-gradient(45deg, rgba(249,172,18,1) 0%, rgba(233,151,44,1) 16%, rgba(217,122,81,1) 36%, rgba(186,67,148,1) 60%, rgba(173,46,175,1) 79%, rgba(163,32,196,1) 100%);
+background: -o-linear-gradient(45deg, rgba(249,172,18,1) 0%, rgba(233,151,44,1) 16%, rgba(217,122,81,1) 36%, rgba(186,67,148,1) 60%, rgba(173,46,175,1) 79%, rgba(163,32,196,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(249,172,18,1) 0%, rgba(233,151,44,1) 16%, rgba(217,122,81,1) 36%, rgba(186,67,148,1) 60%, rgba(173,46,175,1) 79%, rgba(163,32,196,1) 100%);
+background: linear-gradient(45deg, rgba(249,172,18,1) 0%, rgba(233,151,44,1) 16%, rgba(217,122,81,1) 36%, rgba(186,67,148,1) 60%, rgba(173,46,175,1) 79%, rgba(163,32,196,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ac12', endColorstr='#a320c4', GradientType=1 );
+}
+.tweet
+{
+	background-color: #5a8eca;
+}
+.fb,.you,.insta,.tweet
+{
+	width: 41px;
+    height: 41px;
+    border-radius: 20px;
+    float:left;
+    margin-left: 10px;
+}
+.fa-facebook,.fa-youtube-play,.fa-instagram,.fa-twitter
+{
+	color: white;
+    font-size: 20px;
+    padding: 11px 13px
+}
+.space
+{
+	height:113px;
+}
+
+
+/*tablet view*/
+@media (min-width: 768px) and (max-width: 1024px )
+{
+.logo
+{
+	left: 109px;
+}
+.title
+{
+	left:187px;
+}
+.mainMenu>li {
+    left: 2px;
+    padding: 0 9px;
+}
+#tourCnn,#group,#event,#trip,#contact
+{
+	min-height:300px;
+	background-size:cover;
+}
+#contact .sub {
+    margin:0;
+}
+#map
+{
+	width: 383px;
+    height: 324px;
+}
+}
+
+/*mobile view*/
+@media (min-width: 319px) and (max-width: 767px)
+{
+	.midLine
+	{
+		height:50px;
+	}
+.logo
+{
+	left: 109px;
+}
+.logo img
+{
+width: 57px;
+}
+.title
+{
+	font-size: 26px;
+	left:171px;
+	top: 9px;
+}
+.titleName 
+{
+       left: 70px;
+}
+.mainMenu>li {
+    left: 0px;
+    padding: 2px 61px;
+}
+#tourCnn,#group,#event,#trip,#contact
+{
+	min-height:200px;
+	background-size:cover;
+}
+#contact .sub {
+    margin:0;
+}
+#tourCnn .sub, #group .sub, #event .sub, #trip .sub {
+    margin: 53px 10px;
+        width: 288px;
+}

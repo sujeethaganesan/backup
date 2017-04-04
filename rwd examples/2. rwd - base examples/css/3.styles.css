@@ -1,0 +1,14 @@
+	body{background-color: #000;color:#fff;margin: 0 auto}
+	h1{font-size: 2.125em;}
+	h2{font-size: 1em;text-decoration: underline;}
+	div {max-width:1000px;margin: 0 auto}
+	img{width: 100%;}
+	span{width: 100%;height: 320px;display: block;background-repeat: no-repeat;}
+	
+	.image-wrap{width:320px; border: 2px solid #ECCA13; margin: 10px;display: table-cell;}
+	.contain{background-size: contain;}
+	.size100{background-size: 100% 100%;}
+	.cover{background-size: cover;}
+	.flowers{background-image:url('../images/3.flowers.jpg')}
+	.lake{background-image:url(../images/3.lake.jpg)}
+	.goat{background-image:url(../images/3.goat.jpg)}

@@ -1,0 +1,26 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.list-group-item
+{
+	width:20%;
+	padding:0;
+	position:relative;
+	font-size: 17px;
+}
+.list-group-item::before
+{
+content: '';
+position: absolute;
+border-top: 24px solid #00ff00;
+border-right: 25px solid #fff;	
+}
+/*span
+{
+font-size: 0px; line-height: 0%; width: 0px;
+border-top: 25px solid #00ff00;
+border-bottom: none;
+border-right: 27px solid #fff;
+}*/
